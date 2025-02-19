@@ -53,14 +53,6 @@ afterEvaluate {
                 version = rootProject.ext.versionNameString
             }
         }
-        repositories {
-            mavenLocal()
-            // Opsional: Tambahkan repositori custom lain jika diperlukan
-            /*
-            maven {
-                url = "${rootProject.buildDir}/repo"
-            }
-            */
-        }
+
     }
 }
