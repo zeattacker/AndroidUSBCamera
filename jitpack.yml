@@ -1,0 +1,5 @@
+jdk:
+  - openjdk11
+before_install:
+  - echo "Excluding app module from build"
+  - sed -i 's/include ":app"/\/\/include ":app"/' settings.gradle
